@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "omi": {
+      "command": "docker",
+      "args": ["run", "--rm", "-i", "-e", "OMI_API_KEY", "omiai/mcp-server:latest"]
+    }
+  }
+}
