@@ -2,7 +2,7 @@
   "mcpServers": {
     "omi": {
       "command": "docker",
-      "args": ["run", "--rm", "-i", "-e", "OMI_API_KEY=your_api_key_here", "omiai/mcp-server:latest"]
+      "args": ["run", "--rm", "-i", "-e", "OMI_API_KEY", "omiai/mcp-server:latest"]
     }
   }
 }
